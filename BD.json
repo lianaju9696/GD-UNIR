@@ -2,46 +2,46 @@
     {
         "alumno": "Juliana",
         "nota": 9.0,
-        "ranking": 10
+        "ranking": 3
     },
     {
         "alumno": "Pedro",
         "nota": 8.5,
-        "ranking": 15
+        "ranking": 5
     },
     {
         "alumno": "Ana",
         "nota": 7.8,
-        "ranking": 20
+        "ranking": 6
     },
     {
         "alumno": "Luis",
         "nota": 6.5,
-        "ranking": 30
+        "ranking": 8
     },
     {
         "alumno": "Maria",
         "nota": 9.5,
-        "ranking": 5
+        "ranking": 1
     },
     {
         "alumno": "Carlos",
         "nota": 7,
-        "ranking": 25
+        "ranking": 7
     },
     {
         "alumno": "Juan",
         "nota": 4,
-        "ranking": 150
+        "ranking": 9
     },
     {
         "alumno": "Sofia",
         "nota": 8.9,
-        "ranking": 12
+        "ranking": 4
     },
     {
         "alumno": "Marta",
         "nota": 9.2,
-        "ranking": 8
+        "ranking": 2
     }
 ]
