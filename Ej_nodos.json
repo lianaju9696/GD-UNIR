@@ -1,0 +1,23 @@
+{
+    "nodes":[
+        {"id": "Juliana", "group": 1, "type": "student"},
+        {"id": "Daniela", "group": 1, "type": "student"},
+        {"id": "Andrés", "group": 1, "type": "student"},
+        {"id": "Carlos", "group": 1, "type": "student"},
+        {"id": "Química", "group": 2, "type": "subject"},
+        {"id": "Física", "group": 2, "type": "subject"},
+        {"id": "Matemáticas", "group": 3, "type": "subject"},
+        {"id": "Geometría", "group": 3, "type": "subject"},
+        {"id": "Arte", "group": 4, "type": "subject"}
+    ],
+
+    "links":[
+        { "source": "Juliana", "target": "Matemáticas" },
+        { "source": "Juliana", "target": "Geometría" },
+        { "source": "Daniela", "target": "Arte" },
+        { "source": "Daniela", "target": "Física" },
+        { "source": "Andrés", "target": "Química" },
+        { "source": "Carlos", "target": "Arte" },
+        { "source": "Carlos", "target": "Química" }
+    ]
+}
