@@ -1,0 +1,29 @@
+{
+    "nodes":[
+        {"id": "Daniela", "group": 1},
+        {"id": "Juliana", "group": 1},
+        {"id": "Andrés", "group": 1},
+        {"id": "Carlos", "group": 1},
+        {"id": "Matematicas", "group": 2},
+        {"id": "Geometria", "group": 2},
+        {"id": "Fisica", "group": 3},
+        {"id": "Quimica", "group": 3},
+        {"id": "Espanol", "group": 4},
+        {"id": "Historia", "group": 4}
+    ],
+    "links":[
+        {"source": "Daniela", "target": "Matematicas", "value": 30},
+        {"source": "Daniela", "target": "Geometria", "value": 30},
+        {"source": "Daniela", "target": "Fisica", "value": 30},
+        {"source": "Juliana", "target": "Quimica", "value": 30},
+        {"source": "Juliana", "target": "Espanol", "value": 30},
+        {"source": "Juliana", "target": "Fisica", "value": 30},
+        {"source": "Carlos", "target": "Geometria", "value": 30},
+        {"source": "Carlos", "target": "Historia", "value": 30},
+        {"source": "Carlos", "target": "Fisica", "value": 30},
+        {"source": "Andrés", "target": "Matematicas", "value": 30},
+        {"source": "Andrés", "target": "Quimica", "value": 30},
+        {"source": "Andrés", "target": "Historia", "value": 30}
+    
+    ]
+}
