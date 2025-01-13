@@ -1,22 +1,29 @@
 {
-    "nodes": [
-        {"id": "Juliana", "group": 1},
+    "nodes":[
         {"id": "Daniela", "group": 1},
+        {"id": "Juliana", "group": 1},
         {"id": "Andrés", "group": 1},
         {"id": "Carlos", "group": 1},
-        {"id": "Química", "group": 2},
-        {"id": "Física", "group": 2},
-        {"id": "Matemáticas", "group": 3},
-        {"id": "Geometría", "group": 3},
-        {"id": "Arte", "group": 4}
+        {"id": "Matematicas", "group": 2},
+        {"id": "Geometria", "group": 2},
+        {"id": "Fisica", "group": 3},
+        {"id": "Quimica", "group": 3},
+        {"id": "Espanol", "group": 4},
+        {"id": "Historia", "group": 4}
     ],
-    "links": [
-        { "source": "Juliana", "target": "Matemáticas", "value": 30 },
-        { "source": "Juliana", "target": "Geometría", "value": 30 },
-        { "source": "Daniela", "target": "Arte", "value": 30 },
-        { "source": "Daniela", "target": "Física", "value": 30 },
-        { "source": "Andrés", "target": "Química", "value": 30 },
-        { "source": "Carlos", "target": "Arte", "value": 30 },
-        { "source": "Carlos", "target": "Química", "value": 30 }
+    "links":[
+        {"source": "Daniela", "target": "Matematicas", "value": 30},
+        {"source": "Daniela", "target": "Geometria", "value": 30},
+        {"source": "Daniela", "target": "Fisica", "value": 30},
+        {"source": "Juliana", "target": "Quimica", "value": 30},
+        {"source": "Juliana", "target": "Espanol", "value": 30},
+        {"source": "Juliana", "target": "Fisica", "value": 30},
+        {"source": "Carlos", "target": "Geometria", "value": 30},
+        {"source": "Carlos", "target": "Historia", "value": 30},
+        {"source": "Carlos", "target": "Fisica", "value": 30},
+        {"source": "Andrés", "target": "Matematicas", "value": 30},
+        {"source": "Andrés", "target": "Quimica", "value": 30},
+        {"source": "Andrés", "target": "Historia", "value": 30}
+    
     ]
 }
